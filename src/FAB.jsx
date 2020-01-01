@@ -20,8 +20,7 @@ class App extends Component {
     this.setState({
       isFABClicked: !isFABClicked
     });
-    if (!isFABClicked && FB.CustomerChat !== undefined)
-      FB.CustomerChat.hideDialog();
+    if (!isFABClicked && FB !== undefined) FB.CustomerChat.hideDialog();
   };
 
   onClickFABAction = () => {
