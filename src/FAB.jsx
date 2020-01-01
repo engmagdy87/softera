@@ -65,13 +65,14 @@ class App extends Component {
               </a>
             </li>
             <li className="fab-buttons__item">
-              {/* <div id="fb-root"></div> */}
-              <div
-                className="fb-customerchat"
-                attribution="setup_tool"
-                page_id="107251307457228"
-                theme_color="#0084ff"
-              ></div>
+              <div className="test">
+                <div
+                  className="fb-customerchat"
+                  attribution="setup_tool"
+                  page_id="107251307457228"
+                  theme_color="#0084ff"
+                ></div>
+              </div>
             </li>
           </ul>
         </div>
